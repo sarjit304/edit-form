@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  display:block;
+  overflow-y: auto;
+  height: 350px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  /* text-align: left; */
+  padding: 8px;
+  overflow: auto;
+  width: 500px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.favourites {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  overflow:auto;
+}
+
+.favourites-items{
+  margin-left: 5px;
+}
+
+.form {
+  margin-top: 30px;
+  border: 2px solid black;
+}
